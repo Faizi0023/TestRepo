@@ -7,11 +7,11 @@ describe.skip("My Login application", () => {
   });
   it("should login with valid credentials", async () => {
     await browser.url(
-      "http://192.168.3.56/reslab_crm/index.php?action=Login&module=Users"
+      "http://192.168.3.56/reslab_crm/index.php?action=Login&module=Users" //URL 
     );
-    await $("#user_name").setValue("newadmin");
-    await $("#username_password").setValue("123");
-    await $("#bigbutton").click();
+    await $("#user_name").setValue("newadmin");   //username 
+    await $("#username_password").setValue("123"); //password
+    await $("#bigbutton").click();                 //loginbutton
   });
   it("TestingGPTsesson", async () => {
     //  browser.reloadSession(sessionId);
