@@ -20,7 +20,7 @@ describe.skip("My Login application", () => {
     await $("#first_name").setValue("TestQA1234");
     await $("#last_name").setValue("lastname");
     //await $('#state_of_residence')
-    await $('select#state_of_residence > option[label="Alabama"]').click();
+    //await $('select#state_of_residence > option[label="Alabama"]').click();
 
     //      await $('#dob_trigger').click()
     await $("#dob").setValue("8/5/2010");
