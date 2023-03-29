@@ -25,9 +25,9 @@ describe.skip("My Login application", () => {
     //      await $('#dob_trigger').click()
     await $("#dob").setValue("8/5/2010");
     await $("#Accounts0emailAddress0").setValue("test@henhd.com");
-    //    await $('#client_source').click()
-    // await $('select#client_source > option[label="Alma"]').click();
-    // await $('select#account_channel > option[label="Clinician Email"]').click();
-    // await $("#SAVE").click();
+       await $('#client_source').click()
+    await $('select#client_source > option[label="Alma"]').click();
+    await $('select#account_channel > option[label="Clinician Email"]').click();
+    await $("#SAVE").click();
   });
 });
