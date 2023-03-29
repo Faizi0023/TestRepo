@@ -27,7 +27,7 @@ describe("My Login application", () => {
     await $('select#account_channel > option[label="Clinician Email"]').click();
     await $("#pagecontent .buttons:nth-child(8) #SAVE").click();
     await browser.url(
-      "http://192.168.3.56/reslab_crm/index.php?module=Accounts&action=index&return_module=Accounts&return_action=DetailView"
+   //   "http://192.168.3.56/reslab_crm/index.php?module=Accounts&action=index&return_module=Accounts&return_action=DetailView"
     );
   });
 });
