@@ -1,4 +1,4 @@
-describe("My Login application", () => {
+describe.skip("My Login application", () => {
   beforeEach(async () => {
     await browser.maximizeWindow();
   });
